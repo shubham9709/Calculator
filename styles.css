@@ -1,0 +1,73 @@
+body {
+  background-image: url("/home/shubham/web dev/euphoriaIntern/calculator/calcbg (1).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#calc-body {
+  background-color: #300a1d;
+  width: 50vh;
+  height: 44vh;
+  opacity: 0.8;
+  border-radius: 5px;
+  margin: 15vh 0 0 60vh;
+}
+#calc-body #calc-screen {
+  background-color: rgb(47, 110, 47);
+  height: 8vh;
+  width: 95%;
+  border-radius: 5px;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+.input {
+  background-color: rgb(47, 110, 47);
+  height: 8vh;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: xx-large;
+  /* margin: 0 2% 0; */
+  text-align: right;
+}
+#set1 {
+  margin-top: 1%;
+}
+#set1,
+#set2,
+#set3,
+#set4,
+#set5 {
+  margin-left: 1.5%;
+}
+#set1 button,
+#set2 button,
+#set3 button,
+#set4 button,
+#set5 button {
+  width: 11.5vh;
+  height: 5vh;
+  margin: 2% 0 2% 0;
+  font-size: larger;
+  outline: none;
+  border: none;
+}
+.clear {
+  background-color: rgb(234, 79, 79);
+}
+.zero {
+  width: 23.2vh !important;
+}
+.sign,
+.modulo,
+.divide,
+.multiply,
+.minus,
+.plus,
+.equal {
+  background-color: rgb(120, 120, 57);
+}
+button:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
